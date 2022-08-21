@@ -1,21 +1,7 @@
 package talib
 
-/*
- * TA_MIN - Highest value over a specified period
- * 区间范围最小
- * noptInTimePeriod 范围
- *
- * Input  = double
- * Output = double
- *
- * Optional Parameters
- * -------------------
- * optInTimePeriod:(From 2 to 100000)
- *    Number of period
- *
- *
- */
 // Min - Lowest value over a period
+// 求单列表 指定范围 区间 的最小值
 func Min(inReal []float64, inTimePeriod int) []float64 {
 
 	outReal := make([]float64, len(inReal))

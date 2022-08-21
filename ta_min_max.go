@@ -1,6 +1,7 @@
 package talib
 
 // MinMax - Lowest and highest values over a specified period
+// 求单列表 指定范围 区间 的最小和最大值
 func MinMax(inReal []float64, inTimePeriod int) ([]float64, []float64) {
 
 	outMin := make([]float64, len(inReal))

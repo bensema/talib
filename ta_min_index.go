@@ -1,6 +1,7 @@
 package talib
 
 // MinIndex - Index of lowest value over a specified period
+// 求单列表 指定范围 区间 的最小下标位置
 func MinIndex(inReal []float64, inTimePeriod int) []float64 {
 
 	outReal := make([]float64, len(inReal))

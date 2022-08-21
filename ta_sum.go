@@ -1,6 +1,7 @@
 package talib
 
 // Sum - Vector summation
+// 求单列表 指定范围 区间和
 func Sum(inReal []float64, inTimePeriod int) []float64 {
 
 	outReal := make([]float64, len(inReal))

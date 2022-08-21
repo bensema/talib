@@ -1,21 +1,7 @@
 package talib
 
-/*
- * TA_MAX - Highest value over a specified period
- * 区间范围最大
- * noptInTimePeriod 范围
- *
- * Input  = double
- * Output = double
- *
- * Optional Parameters
- * -------------------
- * optInTimePeriod:(From 2 to 100000)
- *    Number of period
- *
- *
- */
-
+// Max - Highest value over a period
+// 求单列表 指定范围 区间 的最大值
 func Max(inReal []float64, optInTimePeriod int) []float64 {
 
 	outReal := make([]float64, len(inReal))

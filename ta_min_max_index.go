@@ -1,6 +1,7 @@
 package talib
 
 // MinMaxIndex - Indexes of lowest and highest values over a specified period
+// 求单列表 指定范围 区间 的最小和最大下标位置
 func MinMaxIndex(inReal []float64, inTimePeriod int) ([]float64, []float64) {
 
 	outMinIdx := make([]float64, len(inReal))
