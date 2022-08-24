@@ -4,6 +4,7 @@
 
 /*
 纯Go的Talib库
+
 	Overlap Studies（重叠研究类）
 	Momentum Indicators（动量指标类）
 	Volume Indicators（成交量指标类）
@@ -14,7 +15,9 @@
 	Statistic Functions（统计函数类）
 	Math Transform（数学变换类）
 	Math Operators（数学运算符类）
+
 Overlap Studies（重叠研究类）
+
 	BBANDS               Bollinger Bands
 	DEMA                 Double Exponential Moving Average
 	EMA                  Exponential Moving Average
@@ -32,7 +35,9 @@ Overlap Studies（重叠研究类）
 	TEMA                 Triple Exponential Moving Average
 	TRIMA                Triangular Moving Average
 	WMA                  Weighted Moving Average
+
 Momentum Indicators（动量指标类）
+
 	ADX                  Average Directional Movement Index
 	ADXR                 Average Directional Movement Index Rating
 	APO                  Absolute Price Oscillator
@@ -63,26 +68,36 @@ Momentum Indicators（动量指标类）
 	TRIX                 1-day Rate-Of-Change (ROC) of a Triple Smooth EMA
 	ULTOSC               Ultimate Oscillator
 	WILLR                Williams' %R
+
 Volume Indicators（成交量指标类）
+
 	AD                   Chaikin A/D Line
 	ADOSC                Chaikin A/D Oscillator
 	OBV                  On Balance Volume
+
 Volatility Indicators（波动性指标类）
+
 	ATR                  Average True Range
 	NATR                 Normalized Average True Range
 	TRANGE               True Range
+
 Price Transform（价格指标类）
+
 	AVGPRICE             Average Price
 	MEDPRICE             Median Price
 	TYPPRICE             Typical Price
 	WCLPRICE             Weighted Close Price
+
 Cycle Indicators（周期指标类）
+
 	HT_DCPERIOD          Hilbert Transform - Dominant Cycle Period
 	HT_DCPHASE           Hilbert Transform - Dominant Cycle Phase
 	HT_PHASOR            Hilbert Transform - Phasor Components
 	HT_SINE              Hilbert Transform - SineWave
 	HT_TRENDMODE         Hilbert Transform - Trend vs Cycle Mode
+
 Pattern Recognition（形态识别类）
+
 	CDL2CROWS            Two Crows
 	CDL3BLACKCROWS       Three Black Crows
 	CDL3INSIDE           Three Inside Up/Down
@@ -144,7 +159,9 @@ Pattern Recognition（形态识别类）
 	CDLUNIQUE3RIVER      Unique 3 River
 	CDLUPSIDEGAP2CROWS   Upside Gap Two Crows
 	CDLXSIDEGAP3METHODS  Upside/Downside Gap Three Methods
+
 Statistic Functions（统计函数类）
+
 	BETA                 Beta
 	CORREL               Pearson's Correlation Coefficient (r)
 	LINEARREG            Linear Regression
@@ -154,7 +171,9 @@ Statistic Functions（统计函数类）
 	STDDEV               Standard Deviation
 	TSF                  Time Series Forecast
 	VAR                  Variance
+
 Math Transform（数学变换类）
+
 	ACOS                 Vector Trigonometric ACos
 	ASIN                 Vector Trigonometric ASin
 	ATAN                 Vector Trigonometric ATan
@@ -170,9 +189,11 @@ Math Transform（数学变换类）
 	SQRT                 Vector Square Root
 	TAN                  Vector Trigonometric Tan
 	TANH                 Vector Trigonometric Tanh
-	PVI                  todo
-	NVI                  todo
+	PVI                  Positive Volume Index
+	NVI                  Negative Volume Index
+
 Math Operators（数学运算符类）
+
 	ADD                  Vector Arithmetic Add
 	DIV                  Vector Arithmetic Div
 	MAX                  Highest value over a specified period
@@ -184,6 +205,5 @@ Math Operators（数学运算符类）
 	MULT                 Vector Arithmetic Mult
 	SUB                  Vector Arithmetic Substraction
 	SUM                  Summation
-
 */
 package talib

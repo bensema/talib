@@ -1,3 +1,3 @@
 package talib
 
-// todo nvi
+// todo nvi Negative Volume Index

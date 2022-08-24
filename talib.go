@@ -2031,23 +2031,6 @@ func NATR() {
 }
 
 /*
-NVI - todo doc NVI
-
-Input:
-
-Output:
-
-名称: NVI_todo1
-
-简介: NVI_todo2
-
-算法: NVI_todo3
-*/
-func NVI() {
-
-}
-
-/*
 OBV - On Balance Volume
 
 Input:
@@ -2118,23 +2101,6 @@ Output:
 算法: PPO_todo3
 */
 func PPO() {
-
-}
-
-/*
-PVI - todo doc PVI
-
-Input:
-
-Output:
-
-名称: PVI_todo1
-
-简介: PVI_todo2
-
-算法: PVI_todo3
-*/
-func PVI() {
 
 }
 
